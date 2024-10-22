@@ -48,10 +48,17 @@
 
         .navbar a {
             color: white;
-            text-align: center;
             padding: 12px 10px;
             text-decoration: none;
             font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar a img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
         }
 
         .navbar a:hover {
@@ -118,7 +125,7 @@
             }
 
             .dex-links img {
-                max-width: 120px;
+                max-width: 100px;
             }
         }
 
@@ -168,13 +175,27 @@
 
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="#">Home</a>
-        <a href="https://x.com/GTA6SolanaCoin?t=S-_TRFVTdtK9CIRvMKF-gw&s=09" target="_blank">Twitter</a>
-        <a href="https://t.me/+rA6TeNLfRjBmODc8" target="_blank">Telegram</a>
-        <a href="mailto:modsoszeus@gmail.com" target="_blank">Gmail</a>
-        <a href="https://www.reddit.com/user/Gta6memesolana/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button&rdt=51530" target="_blank">Reddit</a>
+        <a href="#">
+            <img src="home-icon.png" alt="Home Icon">
+            Home
+        </a>
+        <a href="https://x.com/GTA6SolanaCoin?t=S-_TRFVTdtK9CIRvMKF-gw&s=09" target="_blank">
+            <img src="twitter-icon.png" alt="Twitter Icon">
+            Twitter
+        </a>
+        <a href="https://t.me/+rA6TeNLfRjBmODc8" target="_blank">
+            <img src="telegram-icon.png" alt="Telegram Icon">
+            Telegram
+        </a>
+        <a href="mailto:modsoszeus@gmail.com" target="_blank">
+            <img src="gmail-icon.png" alt="Gmail Icon">
+            Gmail
+        </a>
+        <a href="https://www.reddit.com/user/Gta6memesolana/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button&rdt=51530" target="_blank">
+            <img src="reddit-icon.png" alt="Reddit Icon">
+            Reddit
+        </a>
     </div>
-    
 
     <header>
         <h1>Welcome to the GTA Six Meme on Solana</h1>
@@ -224,33 +245,29 @@
         </div>
     </section>
 
-    <!-- Exchanges Section -->
+    <!-- Exchange Listings Section -->
     <section class="exchanges">
-        <div class="container">
-            <h2>Listed On</h2>
-            <div class="dex-links">
-                <a href="https://www.dextools.io/app/solana/pair-explorer/GVHDf3Y3jpqDg8FFidCyk9mcwuynDWnkAh5LWZBUnEGS?t=1727693271106" target="_blank">
-                    <img src="dextools.jpg" alt="DEXTools">
-                    <p>View on DEXTools</p>
-                </a>
-                <a href="https://dexscreener.com/solana/DosKVpFhk7D1uBqddDTYNLCVdqNFHtmw1PbvVyNQqPf2" target="_blank">
-                    <img src="dex.png" alt="DexScreener">
-                    <p>View on DexScreener</p>
-                </a> href="https://memecoinseason.io/p/gta-6-meme-cto" target="_blank">
-                    <img src="meme.jpg" alt="Meme coin season">
-                    <p>View on Meme coin season</p>
-                </a>
-            </div>
+        <h2>Listed On</h2>
+        <div class="dex-links">
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/DosKVpFhk7D1uBqddDTYNLCVdqNFHtmw1PbvVyNQqPf2" target="_blank">
+                <img src="dextools.jpg" alt="DexTools">
+                <p>View on DexTools</p>
+            </a>
+            <a href="https://dexscreener.com/solana/DosKVpFhk7D1uBqddDTYNLCVdqNFHtmw1PbvVyNQqPf2" target="_blank">
+                <img src="dex.png" alt="DexScreener">
+                <p>View on DexScreener</p>
+            </a>
+            <a href="https://memecoinseason.io/p/gta-6-meme-cto" target="_blank">
+                <img src="meme.jpg" alt="Meme coin season">
+                <p>View on Meme coin season</p>
+            </a>
         </div>
     </section>
 
     <!-- Disclaimer Section -->
     <section class="disclaimer">
-        <div class="container">
-            <p style="font-size: 14px; color: #999; padding: 20px 0;">
-                We are a community-driven project, not the original creators or owners of the token. This initiative was formed by early investors who were rugged and decided to unite fans of the video game series. All decisions are made by the CTO who may change the roadmap or withdraw at any time, and is not responsible for any financial loss. This is a parody token with no affiliation to Rockstar Games. Invest only what you can afford to lose.
-            </p>
-        </div>
+        <p>Disclaimer: This website is a fan-made project. We are not affiliated with Rockstar Games or Solana in any official capacity.</p>
     </section>
+
 </body>
 </html>
